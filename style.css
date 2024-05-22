@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+  color: #000000;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 650px;
+  margin-bottom: 70px;
+  padding-top: 300px;
+  background: #000000 no-repeat center url("img/нужный\ теннис.webp");
+  background-size: cover;
+  color: #dac0c0;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-furniture {
+  size: 10px;
+  padding-top: 400px;
+  background-image: url("img/rodger.webp");
+}
+
+.feature-lighting {
+  padding-top: 400px;
+  background-image: url("img/shteffy.webp");
+}
+
+.feature-accessories {
+  padding-top: 400px;
+  background-image: url("img/novak.webp");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e9c4c4;
+  color: #000000;
+}
+
+.standard {
+  border-color: #c2a0a0;
+  color: #000000;
+}
+
+.vip {
+  border-color: #7a6060;
+  color: #000000;
+}
+
+.site-footer {
+  min-width: 550px;
+  background-color: #000000;
+  color: #ffd2d2;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+
